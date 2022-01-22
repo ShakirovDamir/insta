@@ -12,6 +12,7 @@ import java.util.HashMap;
 import java.util.Map;
 
 @Component
+// создает токен
 public class JWTTokenProvider {
     public static final Logger LOG = LoggerFactory.getLogger(JWTTokenProvider.class);
 
